@@ -4,10 +4,10 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-public class Application implements CommandLineRunner {
+/*@SpringBootApplication
+public class ApplicationWithNPE implements CommandLineRunner {
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+       SpringApplication.run(ApplicationWithNPE.class, args);
     }
 
     @Override
@@ -15,3 +15,4 @@ public class Application implements CommandLineRunner {
         throw new NullPointerException();
     }
 }
+*/

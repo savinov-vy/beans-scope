@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
-@Service
+@Service("BaseService2")
 public class BaseService2 implements CommandLineRunner {
 
     @Autowired
